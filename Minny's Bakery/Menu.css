@@ -1,0 +1,308 @@
+body{
+	margin:0;
+	background-color: #f4f4f4;
+}
+
+.wrapper{ /*the wrapper used throughout website*/
+	width:1200px;
+	height:100%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+/*this is the nav bar*/
+
+.Header{ /*the brown nav header box*/
+	width:100%;
+	height:170px;
+	padding-top:50px;
+	background-color:#231913;
+}
+
+
+.Logocontainer{ /*where logo is*/
+	width:250px;
+	height:113px;
+	float:right;
+}
+
+.overlay{ /*overlay for logo link*/
+	position:absolute;
+	height:113px;
+	width:250px;
+	margin-left:20%;
+	opacity:100;
+	transition:.5s ease;
+}
+
+.Logocontainer:hover .overlay{ /*the hover*/
+	opacity:1;
+}
+
+.logoimage{ /*the container for the image*/
+	width:250px;
+	height:113px;
+	margin-left:20%;
+	text-align:center;
+}
+
+
+.TabBar{ /*the bar where the links are contained*/
+	width:100%;
+	height:20px;
+}
+
+.TabBarlinks{ /*the bar where the links are*/
+	width:990px;
+	height:20px;
+	padding-top:10px;
+	float:right;
+}
+
+ul { /**/
+	list-style-type: none;
+	margin:0;
+}
+
+li { /*where the nav options sit*/
+	float:left;
+}
+
+li a { /*the link*/
+	color:#f4f4f4;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	font-size:15pt;
+	text-align:right;
+	padding: 10px 50px;
+	text-decoration:none;
+}
+
+li a:hover { /*when you hover over link*/
+	background-color:transparent;
+	color:#CC9660;
+}
+
+.active{
+	background-color:transparent;
+	color:#CC9660;
+}
+
+
+
+/*this is the Menu page*/
+
+h1{ /*MENU text*/
+	color:#f4f4f4;
+	font-family:'Open Sans', sans-serif;
+	font-weight:600;
+	font-size:80px;
+	text-align:center;
+	margin:0;
+	padding-top:40px;
+}
+
+h2{ /*Menu item title*/
+	color: #231913;
+	font-family: 'Open Sans', sans-serif;
+	line-height:40px;
+	font-weight:600; 
+	font-size: 25px;
+	font-kerning: 30px;
+}
+
+h3{ /*Popular Items title*/
+	color: #231913;
+	font-family: 'Open Sans', sans-serif;
+	line-height:40px;
+	font-weight:600; 
+	font-size: 50px;
+	font-kerning: 30px;
+}
+
+h4{ /*Popular Items name*/
+	color: #231913;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:600; 
+	font-size: 25px;
+	text-align: center;
+}
+
+p-1{ /*popular items text*/
+	color: #231913;
+	font-family:'Open Sans', sans-serif; 
+	line-height:28px;
+	font-weight:400; 
+	font-size: 16px;
+	font-kerning: 30px;
+}
+
+p-3{ /*footer address*/
+	color: #cc966d;
+	font-family:'Open Sans', sans-serif; 
+	font-size: 16px;
+}
+
+
+
+/*Header of Page */
+
+.firstRow{ /*row for header*/
+	width:100%;
+	height:190px;
+	background-color:#4c4644;
+}
+
+.band{ /*band under header*/
+	width:100%;
+	height:20px;
+	background-color:#CC9660;
+}
+
+
+
+.secondRow{ /*row with first set of menu items*/
+	width:100%;
+	height:200px;
+}
+
+.item{ /*where left row items go */
+	width:500px;
+	height:180px;
+	padding-top:20px;
+	padding-left:100px;
+	float:left;
+}
+
+.item2{ /*where right row items go */
+	width:500px;
+	height:180px;
+	padding-top:20px;
+	padding-left:60px;
+	float:left;
+}
+
+
+
+.thirdRow { /* limited edition section */
+	width:100%;
+	height:600px;
+}
+
+.textBox{ /* containers for third row */
+	width:600px;
+	height:600px;
+	float:left;
+}
+
+.imageTitle{ /* where limited edition title is */
+	width:500px;
+	height:120px;
+	padding-top:20px;
+	padding-left:60px;
+	text-align:center;
+	float:left;
+}
+
+.imageBox{ /*where whoopie image is*/
+	width:500px;
+	height:440px;
+	padding-top:20px;
+	padding-left:60px;
+	text-align:center;
+	float:left;
+}
+
+
+
+.fourthRow { /* popular items section*/
+	width:100%;
+	height:500px;
+}
+
+.popularTitle{ /*title of Popular Items */
+	width:100%;
+	height:80px;
+	text-align:center;
+}
+
+.popularImage{
+	width:100%;
+	height:419px;
+}
+
+
+
+.fifthRow{ /*row for header*/
+	width:100%;
+	height:275px;
+}
+
+.blank1{
+	width:78px;
+	height: 100%;
+	float: left;
+}
+
+.blank2{
+	width:76.5px;
+	height: 100%;
+	float: left;
+}
+
+.textBox2{
+	width: 297px;
+	height: 100%;
+	float: left;
+}
+
+
+
+/*footer*/
+
+.footer{ /* this section is the footer, where my social media links will go */
+	width: 100%;
+	height: 180px;
+	background-color: #231913;
+	padding-top: 50px;
+}
+
+.footerCol-out{ /* the space before and after the icons */
+	width: 375px;
+	height:100%;
+	float: left;
+}
+
+.footerIconCol{ /* the box that the icons will go in */
+	width: 450px;
+	height:100%;
+	float: left;
+	text-align: center;
+}
+
+.icons { /*the class where the icon link goes*/
+	width: 150px;
+	height:100px;
+	float:left;
+	text-align:center;
+	/*padding-top:60px;*/
+}
+
+.fab{ /*allows me to change the icon size, color, etc.*/
+	padding:10px;
+	font-size:45px;
+	height:45px;
+	width:45px;
+	margin: 5px 2px;
+	text-align:center;
+	border-radius:50%;
+	background-color: #f4f4f4;
+	color: #231913;
+}
+
+.fab:hover{ /*the hover over the icons*/
+	transition:0.3s;
+	background: #CC9660;;
+}

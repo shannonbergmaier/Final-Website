@@ -1,0 +1,317 @@
+body{
+	margin:0;
+	background-color: #f4f4f4;
+}
+
+.wrapper{ /*the wrapper used throughout website*/
+	width:1200px;
+	height:100%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+/*this is the nav bar*/
+
+.Header{ /*the brown nav header box*/
+	width:100%;
+	height:170px;
+	padding-top:50px;
+	background-color:#231913;
+}
+
+
+.Logocontainer{ /*where logo is*/
+	width:250px;
+	height:113px;
+	float:right;
+}
+
+.overlay{ /*overlay for logo link*/
+	position:absolute;
+	height:113px;
+	width:250px;
+	margin-left:20%;
+	opacity:100;
+	transition:.5s ease;
+}
+
+.Logocontainer:hover .overlay{ /*the hover*/
+	opacity:1;
+}
+
+.logoimage{ /*the container for the image*/
+	width:250px;
+	height:113px;
+	margin-left:20%;
+	text-align:center;
+}
+
+
+.TabBar{ /*the bar where the links are contained*/
+	width:100%;
+	height:20px;
+}
+
+.TabBarlinks{ /*the bar where the links are*/
+	width:990px;
+	height:20px;
+	padding-top:10px;
+	float:right;
+}
+
+ul { /**/
+	list-style-type: none;
+	margin:0;
+}
+
+li { /*where the nav options sit*/
+	float:left;
+}
+
+li a { /*the link*/
+	color:#f4f4f4;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	font-size:15pt;
+	text-align:right;
+	padding: 10px 50px;
+	text-decoration:none;
+}
+
+li a:hover { /*when you hover over link*/
+	background-color:transparent;
+	color:#CC9660;
+}
+
+.active{
+	background-color:transparent;
+	color:#CC9660;
+}
+
+
+/*this is the Catering page*/
+
+h1{ /*"CATERING"*/
+	color:#f4f4f4;
+	font-family:'Open Sans', sans-serif;
+	font-weight:600;
+	font-size:80px;
+	text-align:center;
+	margin:0;
+	padding-top:40px;
+}
+
+h2{ /*catering text*/
+	color:#f4f4f4;
+	font-family:'Open Sans', sans-serif;
+	font-weight:600;
+	line-height: 35px;
+	font-size:20px;
+	margin:0;
+}
+
+h3{ /*option (birthdays, weddings, special events) titles*/
+	color:#f4f4f4;
+	font-family:'Open Sans', sans-serif;
+	font-weight:600;
+	line-height: 35px;
+	font-size:20px;
+	margin:0;
+	text-align: center;
+}
+
+p-1{ /*option text and button text*/
+	color:#f4f4f4;
+	font-family:'Open Sans', sans-serif; 
+	line-height:28px;
+	font-weight:400; 
+	font-size: 16px;
+	font-kerning: 30px;
+}
+
+p-2{ /*contact text*/
+	color:#4c4644;
+	font-family:'Open Sans', sans-serif; 
+	line-height:28px;
+	font-weight:400; 
+	font-size: 16px;
+	font-kerning: 30px;
+}
+
+p-3{ /*footer address*/
+	color: #cc966d;
+	font-family:'Open Sans', sans-serif; 
+	font-size: 16px;
+}
+
+
+
+/*Header of Page */
+
+.firstRow{ /*row for header*/
+	width:100%;
+	height:190px;
+	background-color:#4c4644;
+}
+
+.band{ /*band under header*/
+	width:100%;
+	height:20px;
+	background-color:#CC9660;
+}
+
+
+
+.imageRow{ /*row where catering image is*/
+	width: 100%;
+	height: 600px;
+	background-image: url("images/catering_image1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.catering{ /*where the text "catering" is*/
+	width: 100%;
+	height: 80px;
+	padding-top: 20%;
+}
+
+.blank{ /*blank space before catering text*/
+	width: 350px;
+	height: 80px;
+	float: left;
+}
+
+.cateringText{ /*where the text "catering" is*/
+	width: 500px;
+	height: 80px;
+	float: left;
+}
+
+
+
+.thirdRow{ /*row for header*/
+	width:100%;
+	height:275px;
+	background-color:#4c4644;
+}
+
+.blank1{ /*blank space for option row*/
+	width: 80px;
+	height: 100%;
+	float: left;
+}
+
+.textBox{ /*boxes for the option information*/
+	width: 290px;
+	height: 225px;
+	float: left;
+	padding-top:50px;
+}
+
+
+
+.fourthRow{ /*row for header*/
+	width:100%;
+	height: 300px;
+}
+
+.contactText{ /*text for contact section*/
+	width: 550px;
+	height: 200px;
+	float: left;
+	padding-top:100px;
+}
+
+.blank2{ /*blank space before and after contact information*/
+	width: 150px;
+	height: 100%;
+	float: left;
+}
+
+.buttonBox{ /*contact button*/
+	width: 270px;
+	height: 185px;
+	float: left;
+	padding-top:115px;
+	text-align: center;
+}
+
+.button{ /*button for catering section (Learn More)*/
+  	height:35px;
+  	width:150px;
+  	background-color: #231913;
+  	color: #f4f4f4;
+  	padding-top: 10px;
+  	text-align: center;
+  	display: inline-block;
+  	font-size: 17px;
+  	margin: 4px 2px;
+  	font-family:'Open Sans', sans-serif;
+  	font-weight:400; 
+  	border-radius: 8px;
+}
+
+a:link{
+	 text-decoration:none; 
+	 color: #231913;
+}
+
+.button:hover{ /*button hover*/
+	transition:0.3s;
+	text-decoration:none;
+	opacity: 1;
+	background-color:#CC9660;
+}
+
+
+
+/*footer*/
+
+.footer{ /* this section is the footer, where my social media links will go */
+	width: 100%;
+	height: 180px;
+	background-color: #231913;
+	padding-top: 50px;
+}
+
+.footerCol-out{ /* the space before and after the icons */
+	width: 375px;
+	height:100%;
+	float: left;
+}
+
+.footerIconCol{ /* the box that the icons will go in */
+	width: 450px;
+	height:100%;
+	float: left;
+	text-align: center;
+}
+
+.icons { /*the class where the icon link goes*/
+	width: 150px;
+	height:100px;
+	float:left;
+	text-align:center;
+	/*padding-top:60px;*/
+}
+
+.fab{ /*allows me to change the icon size, color, etc.*/
+	padding:10px;
+	font-size:45px;
+	height:45px;
+	width:45px;
+	margin: 5px 2px;
+	text-align:center;
+	border-radius:50%;
+	background-color: #f4f4f4;
+	color: #231913;
+}
+
+.fab:hover{ /*the hover over the icons*/
+	transition:0.3s;
+	background: #CC9660;;
+}
